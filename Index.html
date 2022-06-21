@@ -1,13 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git Exercise SheCodes</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Index</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
+
 <body>
-    <script src="script.js"></script>
+    <div id="app"></div>
+
 </body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <div class="container">
+        <div class="card">
+            <form id="search-form">
+                <input type="text" name="search" id="search-city" placeholder="Enter a city here" autofocus="on" />
+
+                <button type="submit" id="search-button" class="btn btn-primary">Search</button>
+                <button type="submit" id="current-button" class="btn btn-outline-success">Current Location</button>
+            </form>
+            </br>
+            <div id="date">
+            </div>
+            </br>
+
+            <ul class="currentWeather">
+                <h2 id="city">
+                    Queens, NY
+                </h2>
+
+                <div>
+                    <span id="temperature"> </span> <strong> °F </strong>
+
+                </div>
+                <div>
+
+                    Humidity: <span id="humidity"> </span> %
+                </div>
+                <div> Feels like: <span id="feelsLike"> </span> °F </div>
+            </ul>
+        </div>
+
+
+    </div>
+    </div>
+    </div>
+    <script src="src/index.js"> </script>
+</body>
+
 </html>
