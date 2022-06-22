@@ -73,8 +73,16 @@ function currentCityWeather(event) {
   axios.get(apiUrl).then(showTemperature);
 }
 
+function searchCity(city) {
+  let apiKey = "be592b4f188e18d71db0078e550c9556";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?${city}&appid=${apiKey}&units=imperial`
+  axios.get(apiUrl).then(showTemperature);;
+}
+
 let currentLocation = document.querySelector("#current-button");
 currentLocation.addEventListener("click", showLocation);
 
 let searchButton = document.querySelector("#search-button");
 searchButton.addEventListener("click", currentCityWeather);
+
+currentCityWeather("New York");
