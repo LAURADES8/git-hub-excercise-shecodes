@@ -4,63 +4,50 @@ body {
     margin: auto;
     padding: 100px;
 }
-
 h3 {
     font-size: 10px;
     color: grey;
 }
-
 #search-form {
     text-align: center;
 }
-
 #search-city {
     text-align: center;
 }
-
 #search-button {
     background: #24527a;
     color: white;
     border-radius: 20px;
 }
-
 #current-button {
     background: #5dacbd;
     color: white;
     border-radius: 20px;
 }
-
 .card {
     background: #e0ebeb;
     border-radius: 10px;
 }
-
 .currentWeather {
     text-align: center;
 }
-
 .emoji {
     font-size: 75px;
 }
-
 .currently {
     font-size: 20px;
     color: #5dacbd;
 }
-
 #temperature {
     font-size: 30px;
     font-weight: bold;
 }
-
 .highLow {
     font-weight: bold;
 }
-
 .card.weekAhead {
     text-align: center;
 }
-
 #date {
     font-weight: bold;
     text-align: center;
